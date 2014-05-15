@@ -6,6 +6,11 @@
  */
 module breakout.glu;
 
+/**
+    Todo: Remove this dependency and port the two functions we need from:
+    C:\dev\projects\SGI_ogl\main\gfx\lib\glu\libutil
+*/
+
 import glad.gl.all;
 
 /* Extensions */
@@ -370,9 +375,9 @@ extern(Windows):
     //~ void  gluTessNormal(GLUtesselator *tess, GLdouble valueX, GLdouble valueY, GLdouble valueZ);
     //~ void  gluTessProperty(GLUtesselator *tess, GLenum which, GLdouble data);
     //~ void  gluTessVertex(GLUtesselator *tess, GLdouble *location, GLvoid *data);
-    GLint function(GLdouble winX, GLdouble winY, GLdouble winZ, GLdouble *model, GLdouble *proj, GLint *view, GLdouble *objX, GLdouble *objY, GLdouble *objZ) gluUnProject;
+    //~ GLint function(GLdouble winX, GLdouble winY, GLdouble winZ, GLdouble *model, GLdouble *proj, GLint *view, GLdouble *objX, GLdouble *objY, GLdouble *objZ) gluUnProject;
     //~ GLint  gluUnProject4(GLdouble winX, GLdouble winY, GLdouble winZ, GLdouble clipW, GLdouble *model, GLdouble *proj, GLint *view, GLdouble nearVal, GLdouble farVal, GLdouble *objX, GLdouble *objY, GLdouble *objZ, GLdouble *objW);
 }
 
-alias gluUnProject = GluProcs.gluUnProject;
+//~ alias gluUnProject = GluProcs.gluUnProject;
 alias gluOrtho2D = GluProcs.gluOrtho2D;

@@ -9,9 +9,9 @@
         "glfw-drey": ">=0.0.2",
         "glwtf-drey": ">=0.0.1",
         "dgl": ">=0.0.5",
-        "derelict-sdl2": "~master",
+        "derelict-sdl2": "~>1.2.0",
         "gl3n": "~master",
-        "glamour-drey": ">=0.0.2-alpha",
+        "glamour-drey": ">=0.0.3-alpha",
     },
 
     "libs-posix": [
