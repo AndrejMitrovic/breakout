@@ -27,7 +27,6 @@ import deimos.glfw.glfw3;
 import dchip.all;
 
 import breakout.draw;
-import breakout.glu;
 import breakout.physics;
 import breakout.text;
 import breakout.types;
@@ -215,6 +214,11 @@ void Display()
 
 int curWindowWidth = 640;
 int curWindowHeight = 480;
+
+void gluOrtho2D(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top)
+{
+    glOrtho(left, right, bottom, top, -1, 1);
+}
 
 extern(C) void Reshape(GLFWwindow* window, int width, int height)
 {
