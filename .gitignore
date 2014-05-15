@@ -1,0 +1,10 @@
+.dub
+/bin
+*.a
+*.o
+*.lib
+*.dll
+*.exe
+*.map
+*.obj
+*.pdb

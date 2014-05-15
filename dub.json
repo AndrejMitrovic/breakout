@@ -1,0 +1,52 @@
+{
+    "name": "breakout",
+
+    "description": "D breakout game.",
+
+    "dependencies": {
+        "dchip": ">=0.0.1",
+        "glad-drey": ">=0.0.2",
+        "glfw-drey": ">=0.0.2",
+        "glwtf-drey": ">=0.0.1",
+        "dgl": ">=0.0.5",
+        "derelict-sdl2": "~master",
+        "gl3n": "~master",
+        "glamour-drey": ">=0.0.2-alpha",
+    },
+
+    "libs-posix": [
+		"glfw"
+	],
+
+    "versions": [
+        "gl3n",
+        "glad",
+        "SDLImage2",
+        "CHIP_ALLOW_PRIVATE_ACCESS",
+        "USE_DEIMOS_GLFW",
+    ],
+
+    "libs-posix": [
+		"glfw"
+	],
+
+    "targetName" : "breakout",
+
+    "targetPath" : "bin",
+
+    "targetType": "executable",
+
+    "sourcePaths": [
+        "src"
+    ],
+
+    "sourceFiles": ["src/breakout/main.d"],
+
+    "mainSourceFile": "src/breakout/main.d",
+
+    "homepage": "https://github.com/d-gamedev-team/opengl-tutorials",
+
+    "copyright": "Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>, Copyright © 2014, Andrej Mitrovic",
+
+    "license": "BSL-1.0",
+}
