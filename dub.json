@@ -4,12 +4,12 @@
     "description": "D breakout game.",
 
     "dependencies": {
-        "dchip": ">=0.0.1",
+        "dchip": ">=0.1.1",
         "glad-drey": ">=0.0.2",
         "glfw-drey": ">=0.0.2",
         "glwtf-drey": ">=0.0.1",
         "dgl": ">=0.0.5",
-        "derelict-sdl2": "~>1.2.0",
+        "derelict-sdl2": "~>1.9.1",
         "gl3n": "~master",
         "glamour-drey": ">=0.0.3-alpha",
     },
