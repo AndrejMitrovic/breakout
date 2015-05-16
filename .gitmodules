@@ -1,0 +1,6 @@
+[submodule "submodules/glfw"]
+	path = submodules/glfw
+	url = https://github.com/D-Programming-Deimos/glfw.git
+[submodule "submodules/dchip"]
+	path = submodules/dchip
+	url = https://github.com/d-gamedev-team/dchip.git

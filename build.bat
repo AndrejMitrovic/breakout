@@ -1,0 +1,1 @@
+rdmd -g glfw3implib.lib -version=CHIP_ALLOW_PRIVATE_ACCESS -version=USE_DEIMOS_GLFW -version=SDLImage2 -version=glad -version=gl3n -Isubmodules\glad -Isubmodules\glfw -Isubmodules\dchip\src -Isrc src\breakout\main.d
