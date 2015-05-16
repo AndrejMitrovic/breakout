@@ -503,7 +503,7 @@ extern(C) void Click(GLFWwindow* window, int button, int state, int mods)
 
                 // todo note: we've temporarily hardcoded it to be explosive for testing.
                 if (!anyFound)
-                    createBrick(space, ChipmunkDemoMouse, cpVect(brickWidth, brickHeight), BrickKillable.yes, BrickExplosive.yes);
+                    createBrick(space, ChipmunkDemoMouse, cpVect(brickWidth, brickHeight), BrickKillable.no, BrickExplosive.yes);
             }
         }
     }
