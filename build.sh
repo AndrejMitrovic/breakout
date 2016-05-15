@@ -1,0 +1,20 @@
+rdmd \
+-g \
+-version=CHIP_ALLOW_PRIVATE_ACCESS \
+-version=USE_DEIMOS_GLFW \
+-version=SDLImage2 \
+-version=glad \
+-version=gl3n \
+-Isubmodules/glad \
+-Isubmodules/glfw \
+-Isubmodules/dchip/src \
+-Isrc \
+-L-lglfw3 \
+-L-lX11 \
+-L-lXxf86vm \
+-L-lXrandr \
+-L-lXinerama \
+-L-lXi \
+-L-lXxf86vm \
+-L-lXcursor \
+src/breakout/main.d
